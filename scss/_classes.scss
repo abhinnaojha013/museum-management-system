@@ -1,0 +1,279 @@
+.border
+{
+   border: 5px solid blue;
+}
+
+.invisible
+{
+   display: none;
+}
+.margin
+{
+   &-auto
+   {
+      margin: auto;
+   }
+}
+.flexbox
+{
+   display: flex;
+   flex-wrap: wrap;
+
+   &-column
+   {
+      flex-direction: column;
+   }
+   
+   &-break
+   {
+      flex-basis: 100%;
+   }
+
+   &-equalise
+   {
+      justify-content: space-between;
+   }
+
+   &-centre
+   {
+      justify-content: center;
+   }
+
+   &-basis
+   {
+      &-per20
+      {
+         flex-basis: 20%;
+      }
+      &-per02
+      {
+         flex-basis: 2%;
+      }
+      &-per05
+      {
+         flex-basis: 5%;
+      }
+      &-per100
+      {
+         flex-basis: 100%;
+      }
+
+   }
+}
+
+.button
+{
+   cursor: pointer;
+   margin: 3px;
+}
+
+.width
+{
+   &-px20
+   {
+      width: 20px;
+   }
+
+   &-px70
+   {
+      width: 70px;
+   }
+
+   &-content
+   {
+      width: min-content;
+   }
+
+   &-per100
+   {
+      width: 100%;
+   }
+}
+
+.height
+{
+   &-px20
+   {
+      height: 20px;
+   }
+
+   &-px10
+   {
+      height: 10px;
+   }
+
+   &-px450
+   {
+      height: 450px;
+   }
+}
+.colour
+{
+   &-red
+   {
+      color: rgb(255, 0, 0);
+   }
+
+
+   &-heading
+   {
+      font-family: 'Helvetica', sans-serif;
+      font-size: 40px;
+      color:  white;
+   }
+}
+
+.stroke
+{
+   -webkit-text-stroke-color: black;
+   -webkit-text-stroke-width: 2px;
+}
+
+.bg_colour
+{
+   &-green
+   {
+      background-color: rgb(0, 209, 0);
+   }
+}
+
+.align
+{
+   &-centre
+   {
+      align-content: center;
+   }
+
+   &-items
+   {
+      &-centre
+      {
+         align-items: center;
+      }
+   }
+}
+
+.foot_link
+{
+   box-sizing: border-box;
+   cursor: pointer;
+   display: inline-block;
+   width: 40px;
+   // height: 30px;
+   padding: 10px;
+}
+
+.google
+{
+   &:link
+   {
+      color: darkred ;
+   }
+
+   &:hover
+   {
+      color: white ;
+      background-color: darkred ;
+   }
+}
+
+.facebook
+{
+   &:link
+   {
+      color: mediumblue ;
+   }
+
+   &:hover
+   {
+      color: white ;
+      background-color: mediumblue ;
+   }
+}
+
+.twitter
+{
+   &:link
+   {
+      color: dodgerblue ;
+   }
+
+   &:hover
+   {
+      color: white ;
+      background-color: dodgerblue;
+   }
+}
+
+.search
+{
+   &::placeholder
+   {
+      text-align: center;
+   }
+}
+
+.hero_image
+{
+   width: 70%;
+}
+
+.carousel
+{
+   display: inline;
+   height: 40px;
+   width: 10%;
+
+   background-color: gray;
+}
+
+.artifact_name_td
+{
+   display: inline;
+   padding-left: 180px;
+}
+
+.search_button
+{
+   background: linear-gradient(to bottom, red, maroon);
+   cursor: pointer;
+
+   border-radius: 10px;
+
+   width: 60px;
+   height: 30px;
+
+   font-size: 18px;
+
+   &:hover
+   {
+      background: linear-gradient(to bottom, maroon, red);
+      color: yellow;
+   }
+}
+
+.search
+{
+   height: 30px;
+
+   font-size: 18px;
+
+   color: darkblue;
+   text-align: center;
+}
+
+#home
+{
+   width: 80%;
+
+   // background-image: url("../images/main_home/chhauni_1.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+   align-items: center;
+   align-content: center;
+   text-align: center;
+
+   margin: auto;
+}

@@ -1,0 +1,43 @@
+body
+{
+    margin: 0;
+    padding: 0;
+
+   a:link.link
+   {
+      text-decoration: none;
+      color: blue;
+   }
+
+   a:visited.link
+   {
+      text-decoration: none;
+      color: blue;
+   }
+
+   a:hover.link
+   {
+      text-decoration: underline;
+      color: blue;
+   }
+
+   a:active.link
+   {
+      text-decoration: none;
+      color: blue;
+   }
+
+}
+
+header
+{
+   background-color: black;
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+}
+
+td
+{
+   vertical-align: top;
+}
